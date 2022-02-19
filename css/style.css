@@ -321,6 +321,7 @@ input {
     .row {
         display: -webkit-flex;
         display: flex;
+        flex-direction: column;
     }
 
     h1 {
@@ -354,5 +355,11 @@ input {
         margin-bottom: 10px;
         object-fit: contain;
     }
+
+    .workarticles {
+        flex: 100%;
+        padding: 20px;
+
+    }  
 
 }
